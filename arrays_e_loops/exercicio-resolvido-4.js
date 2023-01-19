@@ -1,3 +1,9 @@
+/**
+ *  Faça um programa que conta quantas letras
+ *  "a" existem numa determinada palavra.
+ *  Imprima o resultado na tela.
+ */
+
 const palavra = 'abracadabra'; // 5 letras
 
 let encontrado = false, quantidade = 0;

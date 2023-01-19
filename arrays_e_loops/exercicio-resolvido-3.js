@@ -1,3 +1,8 @@
+/*
+ *   Faça um programa que calcula e imprime na
+ *   tela a soma dos itens de um array
+ */
+
 const numeros = [6, 12, 37, 38, 64, 66]; // tamanho 6
 let i = 0, soma = 0;
 
