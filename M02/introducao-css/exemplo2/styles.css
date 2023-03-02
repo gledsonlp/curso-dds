@@ -1,0 +1,23 @@
+/* h1 {
+    color: red;
+    background-color: green;
+    font-size: 50px;
+} */
+
+/* px => pixel ele cria o tamanho dos elementos,
+baseados no tamanho dos pixels da tela. */
+
+.external {
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+}
+
+/* % porcentagem, precisa se basear no tamanho
+do elemento pai */
+
+.internal {
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+}

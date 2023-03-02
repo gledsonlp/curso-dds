@@ -1,0 +1,19 @@
+div {
+    background-color: purple;
+    color: white;
+    margin: 5px;
+}
+
+a {
+    margin: 5px;
+    background-color: pink;
+}
+
+p {
+    color: blueviolet;
+}
+
+p span {
+    background-color: blueviolet;
+    color: white;
+}
