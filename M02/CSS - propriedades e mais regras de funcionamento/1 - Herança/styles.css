@@ -1,0 +1,15 @@
+body {
+    color: green;
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h1 {
+    border: 1px solid black;
+}
+
+p {
+    border: 1px solid black;
+}

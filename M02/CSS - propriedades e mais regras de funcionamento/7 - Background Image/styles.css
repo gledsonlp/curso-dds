@@ -1,0 +1,8 @@
+body {
+    background-image: url('cloud.jpg');
+    background-color: rgb(130, 201, 249);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1080px;
+}

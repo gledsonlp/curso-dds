@@ -1,0 +1,26 @@
+div span {
+    color: blue;
+    font-weight: bold;
+}
+
+.segunda-div span {
+    color: purple;
+}
+
+ul+li {
+    background-color: red;
+}
+
+div+div {
+    background-color: purple;
+}
+
+p~span {
+    text-decoration: underline;
+    font-size: 18px;
+    color: green
+}
+
+ul>li {
+    background-color: red;
+}

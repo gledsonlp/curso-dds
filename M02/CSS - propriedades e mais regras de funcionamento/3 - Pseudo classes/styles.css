@@ -1,0 +1,67 @@
+/*
+    pseudo-elementos ::
+    pseudo-classes :
+*/
+
+
+h1:hover {
+    color: purple;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+    border: 1px solid blueviolet;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: orange;
+}
+
+input:focus {
+    background-color: purple;
+    color: white;
+}
+
+input:focus::placeholder {
+    color: orange;
+}
+
+strong:first-child {
+    color: purple;
+}
+
+strong:last-child {
+    color: green;
+}
+
+span {
+    color: red;
+}
+
+span:last-child {
+    color: orange;
+}

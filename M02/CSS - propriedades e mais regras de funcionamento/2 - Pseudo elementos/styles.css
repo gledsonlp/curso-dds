@@ -1,0 +1,29 @@
+/*
+    Pseudo Elementos
+*/
+
+h1 {
+    color: blue;
+}
+
+h1::before {
+    content: "< / ";
+    color: red;
+}
+
+h1::after {
+    content: " >";
+    color: red;
+}
+
+input {
+    width: 300px;
+    height: 56px;
+    color: purple;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: red
+}
