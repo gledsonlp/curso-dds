@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.content2 {
+    border: 5px solid gray;
+    margin: 5px;
+    padding: 5px;
+}

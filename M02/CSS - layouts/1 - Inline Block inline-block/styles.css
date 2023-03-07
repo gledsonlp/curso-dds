@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+strong,
+span {
+    display: inline-block;
+    color: white;
+    background-color: orange;
+
+    margin: 100px;
+    padding: 100px;
+    ;
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* é uma ditadura e faz perder controle. Por isso deve ser evitado.  */
+    color: green !important;
+}
+
+.segundo {
+    color: orange;
+}
