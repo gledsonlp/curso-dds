@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  height: 800px;
+  background-color: purple;
+
+  margin-top: 50px;
+  margin-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: coral;
+  width: 120px;
+  border-radius: 7px;
+  border: 2px solid lightgray;
+  margin: 10px;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-basis: 100px;
+
+  /* 
+    Shorthand (atalho): 
+    2 => flex-grow
+    2 => flex-shrink
+    100px => flex-basis 
+    flex: 2 2 100px
+  */
+
+}
+
+.item1 {
+  flex-grow: 1;
+}
+
+.item2 {
+  flex-grow: 2;
+}
+
+.item3 {
+  flex-grow: 1;
+}

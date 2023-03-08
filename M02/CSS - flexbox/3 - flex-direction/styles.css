@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 30px;
+
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: purple;
+}
+
+.item {
+  display: flex;
+
+  background-color: lightyellow;
+  width: 100px;
+  height: 70px;
+  border-radius: 7px;
+  border: 2px solid lightgray;
+}

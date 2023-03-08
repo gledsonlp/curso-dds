@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row;  <== é o padrão */
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  width: 550px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: purple;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 70px;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  background-color: lightyellow;
+  border-radius: 7px;
+  border: 2px solid lightgray;
+}
